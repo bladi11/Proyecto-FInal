@@ -13,10 +13,12 @@ namespace Proyecto_FInal
         public string HoraConsulta { get; set; }
         public string Temperatura { get; set; }
         public string Presion { get; set; }
-        public string Sinotmas { get; set; }//lista de sintomas
+        //public string Sinotmas { get; set; }
+        public List<Sintoma> Sintomas = new List<Sintoma>();//lista de sintomas
         public string Diagnostico { get; set; }
         public string Tratamiento { get; set; }
-        public string Receta { get; set; } //Lista de medicamentos
+        //public string Receta { get; set; } 
+        public List<Medicamento> Receta = new List<Medicamento>();//Lista de medicamentos
         public string ProximaVisita { get; set; }
         public string CostoConsulta { get; set; }
         public string ImagenesVarias { get; set; }
